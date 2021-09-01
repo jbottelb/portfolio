@@ -9,8 +9,8 @@ const Home = () => {
      </h1>
     <p>
       I started building this late August 2021 to showcase
-      my projects, class code, and of course the ability to make a website.
-      It is a work in progress and I am adding more every day.
+      my projects, class code, and of course the ability to make a website in React.js.
+      It is a work in progress and I am adding more every day. Go to projects and code to see my work. 
     </p>
     <h2>
         Current TODO list
