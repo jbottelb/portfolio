@@ -1,8 +1,8 @@
 # Change Log
 
-## Aug 29
-- created app
-- hosted with netlify
+## Aug 31
+- Added project component
+- Added project data
 
 ## Aug 30
 - more inital set up
@@ -10,3 +10,7 @@
 - created important pages
 - added TODO list
 - added some home page content
+
+## Aug 29
+- created app
+- hosted with netlify

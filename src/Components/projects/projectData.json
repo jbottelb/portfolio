@@ -1,0 +1,16 @@
+[
+    {
+        "title": "This Portfolio Webiste",
+        "image": "https://duckduckgo.com/?q=portfolio&iax=images&ia=images&iai=https%3A%2F%2Fwww.investopedia.com%2Fthmb%2FNRuWnsAjUre5v7C4MgIbb9hef-Y%3D%2F2121x1414%2Ffilters%3Afill(auto%2C1)%2FPortfolioAnalysisforBeginners-5a011cc7ec2f64003784666f.jpg",
+        "description": "Website created with React JS to showcase coding experiance",
+        "link": "https://jbottelb.netlify.app/",
+        "github": "github.com/jbottelb/portfolio"
+    },
+    {
+        "title": "Superlative Webiste",
+        "image": "https://eg8ti.csb.app/img/Superlative.png",
+        "description": "Website in React JS created for Modern Web Development Class.",
+        "link": "https://ndsuperlativevoter.netlify.app/",
+        "github": "https://github.com/jbottelb/superlative"
+    }
+]
