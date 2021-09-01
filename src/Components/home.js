@@ -26,10 +26,22 @@ const Home = () => {
             Styling, everywhere
         </li>
         <li>
-            Add personal information
+            Style project tiles
         </li>
         <li>
+            Add portal for me to add projects
+        </li>
+        <li>
+            Move data to heroku api
+        </li>
+        <li>
+            Add personal information
+        </li>
+        <li style={{color: "grey", textDecorationLine: 'line-through'}}>
             Add projects
+        </li>
+        <li>
+            All relivant projects
         </li>
         <li>
             Add appropriate content to home page
