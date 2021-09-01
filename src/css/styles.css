@@ -1,0 +1,35 @@
+/*
+Color pallete
+000f08 or 00242E
+005D8F
+64985D
+86B9E9
+8E3B46
+*/
+:root{
+    --c1: #000f08;
+    --c2: #0D2A45;
+    --c3: #95D9C3;
+    --c4: #AFC0BB;
+    --c5: #8E3B46
+
+}
+
+body {
+    background-color: var(--c1);
+    color: var(--c3);
+}
+div {
+    background-color: var(--c2);
+}
+p, ul {
+    color: var(--c4);
+}
+
+/* Other palletes
+--c1: #000f08;
+--c2: #0D2A45;
+--c3: #95D9C3;
+--c4: #AFC0BB;
+--c5: #8E3B46
+*/
