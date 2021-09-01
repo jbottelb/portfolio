@@ -11,19 +11,28 @@ Color pallete
     --c2: #0D2A45;
     --c3: #95D9C3;
     --c4: #AFC0BB;
-    --c5: #8E3B46
-
+    --c5: #8E3B46;
 }
-
-body {
+.App {
+    text-align: center;
     background-color: var(--c1);
     color: var(--c3);
+    padding: 10px;
 }
-div {
+.standard {
     background-color: var(--c2);
+    border-color: var(--c4);
+    border: 3px;
 }
 p, ul {
     color: var(--c4);
+    text-align: justify;
+}
+a {
+
+}
+a:visited{
+    color: var(--c5);
 }
 
 /* Other palletes
