@@ -12,8 +12,11 @@ const ProjectPage = () => {
         </h1>
         {
             projectData.map(p => (
+                <div>
                 <ProjectTile title={p.title} image={p.image}
                 description={p.description} link={p.link} github={p.github}/>
+                <br />
+                </div>
             ))
         }
     </div>

@@ -1,0 +1,14 @@
+.tile {
+     background-color: lightgrey;
+     text-decoration: none;
+     color: black;
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     border: 3px solid black;
+}
+
+.github {
+    width: 4%;
+    height: auto;
+}

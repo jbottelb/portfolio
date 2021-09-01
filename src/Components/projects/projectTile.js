@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import "../../css/projectTile.css";
+import github from "../../img/github.png";
+
 
 /*
 A tile should have:
@@ -12,13 +15,16 @@ class ProjectTile extends Component {
 
     render() {
         return (
-            <div>
-                <p>{this.props.title}</p>
-                <p>{this.props.image}</p>
+            <a href={this.props.link} class="tile">
+            <div class="tile">
+                <h3>{this.props.title}</h3>
+                <img src={this.props.image} alt=""/>
                 <p>{this.props.description}</p>
-                <p>{this.props.link}</p>
-                <p>{this.props.github}</p>
+                <a href={this.props.github}>
+                    <img class="github" src={github} alt="github"/>
+                </a>
             </div>
+            </a>
         )
     }
 }
