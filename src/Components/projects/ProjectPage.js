@@ -10,6 +10,9 @@ const ProjectPage = () => {
         <h1>
             My projects
         </h1>
+        <a href="github.com/jbottelb">
+          My github profile
+        </a>
         {
             projectData.map(p => (
                 <div>
