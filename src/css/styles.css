@@ -23,6 +23,7 @@ Color pallete
     background-color: var(--c2);
     border-color: var(--c4);
     border: 3px;
+    padding: 0px;
 }
 p, ul {
     color: var(--c4);
@@ -33,6 +34,26 @@ a {
 }
 a:visited{
     color: var(--c5);
+}
+.standing {
+    width: 30%;
+    height: auto;
+    padding: 3%;
+}
+
+.profile {
+    text-align: justify;
+    float: left;
+    float:left;
+    display:inline;
+    width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Other palletes
