@@ -18,12 +18,15 @@ Color pallete
     background-color: var(--c1);
     color: var(--c3);
     padding: 10px;
+    font-family: monospace;
 }
 .standard {
     background-color: var(--c2);
     border-color: var(--c4);
     border: 3px;
     padding: 0px;
+    border-radius: 13px;
+    font-size: 18px;
 }
 p, ul {
     color: var(--c4);
@@ -39,6 +42,7 @@ a:visited{
     width: 30%;
     height: auto;
     padding: 3%;
+    border-radius: 10px;
 }
 
 .profile {
@@ -47,6 +51,7 @@ a:visited{
     float:left;
     display:inline;
     width: 50%;
+    font-size: 16px;
 }
 
 .flex-container {
@@ -56,6 +61,35 @@ a:visited{
   justify-content: center;
 }
 
+.github2 {
+    background-color: lightgrey;
+    width: 8%;
+    height: auto;
+}
+.linkedin {
+    padding: 0px;
+    background-color: lightgrey;
+    width: 8%;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.link {
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--c5);
+
+}
+
+.skills {
+    border-color: white;
+    border: 3px;
+    width: 30%;
+}
 /* Other palletes
 --c1: #000f08;
 --c2: #0D2A45;
