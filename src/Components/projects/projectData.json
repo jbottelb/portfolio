@@ -7,10 +7,38 @@
         "github": "https://github.com/jbottelb/portfolio"
     },
     {
+        "title": "General Coding Samples",
+        "image": "http://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4.png",
+        "description": "Repository holding much of my earlier university coding work. ",
+        "link": "https://github.com/jbottelb/ResumeCode",
+        "github": "https://github.com/jbottelb/ResumeCode"
+    },
+    {
         "title": "Superlative Webiste",
         "image": "https://eg8ti.csb.app/img/Superlative.png",
         "description": "Website in React JS created for Modern Web Development Class.",
         "link": "https://ndsuperlativevoter.netlify.app/",
         "github": "https://github.com/jbottelb/superlative"
+    },
+    {
+        "title": "Natural Language Processing",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthrivelearningcollective.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fsocialmedia_meta_nlp.jpg&f=1&nofb=1",
+        "description": "Project in NLP done to guess reddit comment score based off of the text from the comment.",
+        "link": "https://github.com/jbottelb/NLP_project",
+        "github": "https://github.com/jbottelb/NLP_project"
+    },
+    {
+        "title": "Coding Challenges",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.VlzDxqHFi6VBtdu5emhVvgHaEK%26pid%3DApi&f=1",
+        "description": "Interview type problems completed in python to display a wide understanding of data sttuctures and algorithms. (Click to go to course website, github link below)",
+        "link": "https://www3.nd.edu/~pbui/teaching/cse.34872.su21/",
+        "github": "https://github.com/jbottelb/cse-30872-fa20-examples"
+    },
+    {
+        "title": "LAMP Stack Lifting Project",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgeekboots.sfo2.cdn.digitaloceanspaces.com%2Fpost%2Fthumbnail%2Flamp-stack-1567223628409.jpg&f=1&nofb=1",
+        "description": "Project Completed in the LAMP stack which gave athletic trainers ways to idenitfy at risk of injury athletes. ",
+        "link": "https://github.com/jbottelb/nd_lifting",
+        "github": "https://github.com/jbottelb/nd_lifting"
     }
 ]

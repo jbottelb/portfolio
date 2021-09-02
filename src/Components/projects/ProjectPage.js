@@ -7,15 +7,13 @@ import ProjectTile from "./projectTile.js";
 const ProjectPage = () => {
   return (
       <div class="standard">
+      <br/>
         <h1>
             My projects
         </h1>
         <h3>
-            (click to go to projects)
+            (click images to go to projects)
         </h3>
-        <a href="https://github.com/jbottelb">
-          My github profile
-        </a>
         {
             projectData.map(p => (
                 <div class="ProjectTile">

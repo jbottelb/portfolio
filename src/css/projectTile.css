@@ -1,14 +1,20 @@
 div.ProjectTile {
-     background-color: lightgrey;
+     background-color: #0D2A35;
      text-decoration: none;
      color: black;
      width: 80%;
      margin: auto;
      text-align: center;
      border: 3px solid black;
+     padding: 10px;
+     text-align: center;
+}
+
+.tileIMG {
+    width: 80%;
 }
 
 .github {
-    width: 4%;
+    width: 7%;
     height: auto;
 }

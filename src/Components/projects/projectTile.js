@@ -18,8 +18,8 @@ class ProjectTile extends Component {
             <a href={this.props.link} class="tile">
             <div class="tile">
                 <h3>{this.props.title}</h3>
-                <img src={this.props.image} alt=""/>
-                <p>{this.props.description}</p>
+                <img src={this.props.image} class="tileIMG" alt=""/>
+                <p class="tile">{this.props.description}</p>
                 <a href={this.props.github}>
                     <img class="github" src={github} alt="github"/>
                 </a>
