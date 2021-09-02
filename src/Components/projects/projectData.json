@@ -51,8 +51,8 @@
     {
         "title": "GroupMe Analyzer",
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LMJ0L5YmbnVCFWPsurKxagHaDZ%26pid%3DApi&f=1",
-        "description": "Website that would take in groupme downloaded data and present the user with fun and interesting statistics about the group.",
-        "link": "https://github.com/jbottelb/ResumeCode/tree/master/pythonApp",
+        "description": "Website that would take in groupme downloaded data and present the user with fun and interesting statistics about the group. (API is not live, site is on gitlab pages)",
+        "link": "https://jbottelb.gitlab.io/passwordserver",
         "github": "https://github.com/jbottelb/ResumeCode/tree/master/pythonApp"
     },
     {
