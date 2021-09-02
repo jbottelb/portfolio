@@ -22,29 +22,47 @@ const About = () => {
           <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Get styling for strikethrough to check off TODO list
           </li>
-          <li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Styling, everywhere
           </li>
-          <li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Style project tiles
           </li>
-          <li>
-              Add portal for me to add projects
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
+              Move detailed information about this site to own page
           </li>
-          <li>
-              Move data to heroku api
-          </li>
-          <li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Add personal information
           </li>
           <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Add projects
           </li>
-          <li>
-              All relivant projects
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
+              All (current) relivant projects
+          </li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
+              Add appropriate content to home page
           </li>
           <li>
-              Add appropriate content to home page
+              Style navbar
+          </li>
+          <li>
+              Finish adding skills
+          </li>
+          <li>
+              Add more personal info
+          </li>
+          <li>
+            add interests
+          </li>
+          <li>
+              Add favorite programming concepts
+          </li>
+          <li>
+              Add a personal Style Guide
+          </li>
+          <li>
+              Finish this page right here
           </li>
           <li>
               Create protected mode where I can add more projects
@@ -53,7 +71,10 @@ const About = () => {
               Create a message board
           </li>
           <li>
-              Move detailed information about this site to own page
+              Add portal for me to add projects
+          </li>
+          <li>
+              Move data to heroku api
           </li>
           <li>
               Decorate

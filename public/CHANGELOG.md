@@ -1,5 +1,12 @@
 # Change Log
 
+## Sept 1
+- Created color pallete
+- added theme and styling
+- added remaining projects
+- added general info on home page
+- moved personal info to home page 
+
 ## Aug 31
 - Added project component
 - Added project data

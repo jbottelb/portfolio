@@ -28,11 +28,32 @@
         "github": "https://github.com/jbottelb/NLP_project"
     },
     {
+        "title": "Machine Translation System",
+        "image": "https://images.designtrends.com/wp-content/uploads/2016/04/07093359/Star-Wars-Movie-HD-Background.jpg",
+        "description": "Homework in NLP to create a RNN neural net to translate Star Wars movies from Chinese to English.",
+        "link": "https://github.com/jbottelb/ResumeCode/tree/master/NLP/hw2",
+        "github": "https://github.com/jbottelb/ResumeCode/tree/master/NLP/hw2"
+    },
+    {
         "title": "Coding Challenges",
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.VlzDxqHFi6VBtdu5emhVvgHaEK%26pid%3DApi&f=1",
         "description": "Interview type problems completed in python to display a wide understanding of data sttuctures and algorithms. (Click to go to course website, github link below)",
         "link": "https://www3.nd.edu/~pbui/teaching/cse.34872.su21/",
         "github": "https://github.com/jbottelb/cse-30872-fa20-examples"
+    },
+    {
+        "title": "Server in C",
+        "image": "https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/13649/0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Social-d385a3cca01699556490f88baa50d00a.png",
+        "description": "Final assignment for Systems programming where we wrote a server from scratch in C.",
+        "link": "https://github.com/jbottelb/ResumeCode/tree/master/Cserver",
+        "github": "https://github.com/jbottelb/ResumeCode/tree/master/Cserver"
+    },
+    {
+        "title": "GroupMe Analyzer",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LMJ0L5YmbnVCFWPsurKxagHaDZ%26pid%3DApi&f=1",
+        "description": "Website that would take in groupme downloaded data and present the user with fun and interesting statistics about the group.",
+        "link": "https://github.com/jbottelb/ResumeCode/tree/master/pythonApp",
+        "github": "https://github.com/jbottelb/ResumeCode/tree/master/pythonApp"
     },
     {
         "title": "LAMP Stack Lifting Project",
