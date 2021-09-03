@@ -2,6 +2,7 @@ import React from "react";
 import photo from "../img/standing.JPEG"
 import github from "../img/github.png";
 import linkedin from "../img/linkedin.png"
+import Interests from "./interests.js"
 
 // The home page.
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
             <img class="linkedin" src={linkedin} alt="linkedin"/>
          </a>
       </div>
+
       <div class="skills">
         <h2>Skills</h2>
         <ul>
@@ -49,9 +51,12 @@ const Home = () => {
             <li>Go</li>
             <li>Machine Learing</li>
         </ul>
-      </div>
-    </div>
+      </div >
+      <div class="interests">
+          <Interests class="interests" />
+          </div>
 
+        </div>
     </div>
   );
 };

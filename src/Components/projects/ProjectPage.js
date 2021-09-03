@@ -14,6 +14,7 @@ const ProjectPage = () => {
         <h3>
             (click images to go to projects)
         </h3>
+
         {
             projectData.map(p => (
                 <div class="ProjectTile">
@@ -22,6 +23,7 @@ const ProjectPage = () => {
                 </div>
             ))
         }
+
     </div>
   );
 };

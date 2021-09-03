@@ -88,8 +88,20 @@ a:link {
 .skills {
     border-color: white;
     border: 3px;
-    width: 30%;
+    width: 40%;
 }
+
+.interests {
+    padding-left: 30px;
+    width: 50%;
+    word-wrap: normal;
+    text-align: left;
+}
+
+.title-interests {
+    text-align: center;
+}
+
 
 
 /* Other palletes
