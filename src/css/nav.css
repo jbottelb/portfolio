@@ -1,0 +1,15 @@
+.nav-links{
+  list-style-type: none;
+  display: inline;
+  margin: 2%;
+}
+
+.nav-links a:hover {
+  background-color: #111;
+  color: #AFC0BB;
+  padding: 10px;
+}
+
+.nav-bar {
+
+}

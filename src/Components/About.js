@@ -43,7 +43,7 @@ const About = () => {
           <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Add appropriate content to home page
           </li>
-          <li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Style navbar
           </li>
           <li>
