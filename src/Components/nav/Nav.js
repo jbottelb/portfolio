@@ -16,6 +16,9 @@ const Nav = () => {
         <li className="nav-links">
           <Link to="projects">Projects and Code</Link>
         </li>
+        <li className="nav-links">
+          <Link to="messages">Message Board</Link>
+        </li>
       </ul>
     </nav>
   );
