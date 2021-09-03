@@ -4,6 +4,7 @@ import projectData from "./projectData.json"
 import ProjectTile from "./projectTile.js";
 
 // The project page
+// loads project infor from json file. Very convinient
 const ProjectPage = () => {
   return (
       <div class="standard">

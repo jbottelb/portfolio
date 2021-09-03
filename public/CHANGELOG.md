@@ -1,11 +1,17 @@
 # Change Log
 
+## Sept 2
+- styled navbar
+- added interests
+- put project tiles in container
+- added some comments and updated TODO
+
 ## Sept 1
 - Created color pallete
 - added theme and styling
 - added remaining projects
 - added general info on home page
-- moved personal info to home page 
+- moved personal info to home page
 
 ## Aug 31
 - Added project component

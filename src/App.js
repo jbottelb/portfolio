@@ -1,12 +1,12 @@
 import React from "react";
 import Nav from "./Components/nav/Nav.js";
 import About from "./Components/About.js";
-import Home from "./Components/home.js";
+import Home from "./Components/home/home.js";
 import ProjectPage from "./Components/projects/ProjectPage.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./css/styles.css";
 
-
+// root of application
 function App() {
   return (
       <Router >

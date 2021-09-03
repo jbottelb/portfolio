@@ -1,5 +1,6 @@
 import React from "react";
 
+// should make this load from a file and create sub-components for similcity
 const Interests = () => {
   return (
       <div class="Interests">

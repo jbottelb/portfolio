@@ -1,10 +1,13 @@
 import React from "react";
-import photo from "../img/standing.JPEG"
-import github from "../img/github.png";
-import linkedin from "../img/linkedin.png"
+import photo from "../../img/standing.JPEG"
+import github from "../../img/github.png";
+import linkedin from "../../img/linkedin.png"
 import Interests from "./interests.js"
 
-// The home page.
+// The home page
+// Is a flex box of informational items
+
+// skills should be own component
 const Home = () => {
   return (
   <div class="standard">

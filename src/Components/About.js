@@ -1,6 +1,6 @@
 import React from "react";
 
-// Simple about page.
+// Description about the webpage
 const About = () => {
   return (
       <div class="standard">
@@ -46,14 +46,26 @@ const About = () => {
           <li style={{color: "grey", textDecorationLine: 'line-through'}}>
               Style navbar
           </li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
+            add interests
+          </li>
+          <li>
+              Pull out skills into component. Load each skill from json instead
+          </li>
+          <li>
+              Put each interest in json and load into components
+          </li>
+          <li>
+              Add more interests, as I am interesting. 
+          </li>
+          <li>
+              add photos to interests
+          </li>
           <li>
               Finish adding skills
           </li>
           <li>
               Add more personal info
-          </li>
-          <li>
-            add interests
           </li>
           <li>
               Add favorite programming concepts
