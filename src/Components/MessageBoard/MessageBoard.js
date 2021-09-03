@@ -35,6 +35,9 @@ class MessageBoard extends React.Component {
         return (
             <div class="standard">
                 <h1>Message Board</h1>
+                <p>
+                    This page is in development
+                </p>
                 <button onClick={this.sendMessage}>
                     Send
                 </button>
