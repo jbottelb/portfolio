@@ -14,7 +14,7 @@ const ProjectPage = () => {
         <h3>
             (click images to go to projects)
         </h3>
-
+        <div class="flex-container">
         {
             projectData.map(p => (
                 <div class="ProjectTile">
@@ -23,6 +23,7 @@ const ProjectPage = () => {
                 </div>
             ))
         }
+        </div>
 
     </div>
   );
