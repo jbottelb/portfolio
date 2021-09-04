@@ -2,7 +2,6 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import Message from "./message.js";
 import axios from "axios";
-import "../../css/message.css"
 
 export default function Messages() {
     const [messages, setMessages] = useState([]);

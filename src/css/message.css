@@ -1,0 +1,35 @@
+.message {
+    margin: 0 auto;
+    background-color: #0D2A35;
+    border: 5px;
+    border-color: black;
+    border-radius: 2%;
+    width: 80%;
+
+}
+
+.name {
+    width: 20%;
+}
+
+.messageInput {
+    width: 40%;
+}
+
+.messagemessage {
+    text-align: center;
+    font-size: 14px;
+    overflow: auto;
+}
+
+.messageName {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    background-color: lightgrey;
+}
+button {
+    background-color: lightgrey;
+}
