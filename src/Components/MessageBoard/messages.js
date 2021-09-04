@@ -1,17 +1,18 @@
 import React from 'react';
 import { useEffect, useState } from "react";
 import Message from "./message.js";
-import axios from "axios";
+import { getMessagesDB } from "../../Services/db.js";
 
 export default function Messages() {
     const [messages, setMessages] = useState([]);
 
   // get form to fisplay by name
   useEffect(() => {
-      axios.get("https://phyapi.herokuapp.com/messages")
+      getMessagesDB()
       .then(res => {
-          setMessages(res.data);
-          console.log(res.data);
+          setMessages(res);
+          console.log("setting");
+          console.log(res);
       });
 
   }, []);

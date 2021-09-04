@@ -1,5 +1,8 @@
 # Change Log
 
+## Sept 4
+- moved data to back4app for more consistent persistence
+
 ## Sept 3
 - Created entire message Board
 - created back-end for application

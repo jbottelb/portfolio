@@ -1,5 +1,6 @@
 import React from "react";
-import { sendMessage } from "../../Services/phyapi.js";
+// import { sendMessage } from "../../Services/phyapi.js";
+import { sendMessageDB } from "../../Services/db.js";
 import Messages from "./messages.js";
 import "../../css/message.css"
 
@@ -17,8 +18,8 @@ class MessageBoard extends React.Component {
     // first we need to format for the db
     event.preventDefault();
     console.log(this.state);
+    sendMessageDB(this.state.name, this.state.message);
 
-    sendMessage(this.state.name, this.state.message);
     alert("Message added!");
 
   };
@@ -32,8 +33,7 @@ class MessageBoard extends React.Component {
         return (
             <div class="standard">
                 <h1>Message Board</h1>
-                <p>If I want to remove a message, I have to wipe the whole board as of now...
-                so please don't make me. </p>
+
                 <input class="name" name="name" type="text" onChange={this.myChangeHandler}/>
                 <input class="messageInput" name="message" type="text" onChange={this.myChangeHandler}/>
                 <button class="messageButton" onClick={this.mySubmitHandler}>
