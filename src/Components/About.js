@@ -12,6 +12,11 @@ const About = () => {
         my projects, class code, and of course the ability to make a website in React.js.
         It is a work in progress and I am adding more every day. Go to projects and code to see my work.
       </p>
+      <p> The backend is being run in heroku by a python3 flask API. Code found on the projects page.
+      </p>
+      <a href="https://jbottelb.netlify.app/CHANGELOG.md">
+      Change Log
+      </a>
       <h2>
           Current TODO list
       </h2>
@@ -49,6 +54,12 @@ const About = () => {
           <li style={{color: "grey", textDecorationLine: 'line-through'}}>
             add interests
           </li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
+              Create a message board
+          </li>
+          <li style={{color: "grey", textDecorationLine: 'line-through'}}>
+              Launch Heroku API
+          </li>
           <li>
               Pull out skills into component. Load each skill from json instead
           </li>
@@ -56,7 +67,7 @@ const About = () => {
               Put each interest in json and load into components
           </li>
           <li>
-              Add more interests, as I am interesting. 
+              Add more interests, as I am interesting.
           </li>
           <li>
               add photos to interests
@@ -79,9 +90,7 @@ const About = () => {
           <li>
               Create protected mode where I can add more projects
           </li>
-          <li>
-              Create a message board
-          </li>
+
           <li>
               Add portal for me to add projects
           </li>

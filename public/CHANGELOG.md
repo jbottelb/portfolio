@@ -3,6 +3,7 @@
 ## Sept 3
 - Created entire message Board
 - created back-end for application
+- added more documentation
 
 ## Sept 2
 - styled navbar
