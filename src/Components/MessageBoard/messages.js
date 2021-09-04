@@ -13,6 +13,7 @@ export default function Messages() {
           setMessages(res);
           console.log("setting");
           console.log(res);
+          alert("Message Added")
       });
 
   }, []);
