@@ -34,8 +34,8 @@ class MessageBoard extends React.Component {
                 <h1>Message Board</h1>
                 <p>If I want to remove a message, I have to wipe the whole board as of now...
                 so please don't make me. </p>
-                <input class="name" name="name" value="Your name" type="text" onChange={this.myChangeHandler}/>
-                <input class="messageInput" name="message" value="message" type="text" onChange={this.myChangeHandler}/>
+                <input class="name" name="name" type="text" onChange={this.myChangeHandler}/>
+                <input class="messageInput" name="message" type="text" onChange={this.myChangeHandler}/>
                 <button class="messageButton" onClick={this.mySubmitHandler}>
                     Post
                 </button>
