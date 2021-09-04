@@ -1,5 +1,9 @@
 # Change Log
 
+## Sept 3
+- Created entire message Board
+- created back-end for application
+
 ## Sept 2
 - styled navbar
 - added interests
