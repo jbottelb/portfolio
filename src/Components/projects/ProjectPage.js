@@ -1,6 +1,5 @@
 import React from "react";
 import projectData from "./projectData.json"
-
 import ProjectTile from "./projectTile.js";
 
 // The project page

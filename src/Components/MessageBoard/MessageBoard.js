@@ -1,36 +1,14 @@
 import React from "react";
-import { getMessages } from "../../Services/phyapi.js";
+// import { sendMessage } from "../../Services/phyapi.js";
+import Messages from "./messages.js";
 
-// should make this load from a file and create sub-components for similcity
+// should make this load from a file and create sub-components for simplicity
 class MessageBoard extends React.Component {
-    sendMessage() {
-        fetch("https://phyapi.herokuapp.com/sendmessage", {
-          "method": "POST",
-          "headers": {
-            "x-rapidapi-host": "fairestdb.p.rapidapi.com",
-            "x-rapidapi-key": "apikey",
-            "content-type": "application/json",
-            "accept": "application/json"
-          },
-          "body": JSON.stringify({
-            name: "Portfolio",
-            message: "Hello from the application"
-          })
-        })
-        .then(response => response.json())
-        .then(response => {
-          console.log(response)
-        })
-        .catch(err => {
-          console.log(err);
-        });
+    handleMessage() {
+
         alert("Message Sent!")
     }
-    async getMessages() {
-        let messages = await getMessages();
-        console.log(messages);
-        alert("Fetched messages")
-    }
+
     render() {
         return (
             <div class="standard">
@@ -38,12 +16,10 @@ class MessageBoard extends React.Component {
                 <p>
                     This page is in development
                 </p>
-                <button onClick={this.sendMessage}>
+                <button onClick={this.handleMessage}>
                     Send
                 </button>
-                <button onClick={this.getMessages}>
-                    Send
-                </button>
+                <Messages />
             </div>
         )
     }
