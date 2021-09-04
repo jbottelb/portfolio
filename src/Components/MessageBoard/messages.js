@@ -2,31 +2,26 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import Message from "./message.js";
 import axios from "axios";
+import "../../css/message.css"
 
 export default function Messages() {
     const [messages, setMessages] = useState([]);
 
   // get form to fisplay by name
   useEffect(() => {
-      if (messages && messages.length )
-      {
+      axios.get("https://phyapi.herokuapp.com/messages")
+      .then(res => {
+          setMessages(res.data);
+          console.log(res.data);
+      });
 
-      }
-      else {
-          axios.get("https://phyapi.herokuapp.com/messages")
-          .then(res => {
-              setMessages(res.data);
-              console.log(res.data);
-          });
-
-        }
-  }, [messages]);
+  }, []);
 
   return (
       <div class="standatd">
       {
           messages && messages.map((m) => (
-            <Message name={m.name} message={m.message}/>
+            <Message class="message" name={m.name} message={m.message}/>
           )
       )
       }
