@@ -54,6 +54,17 @@ const Home = () => {
             <li>Go</li>
             <li>Machine Learing</li>
         </ul>
+        <h2>Elective CS Classes</h2>
+        <ul>
+            <li>Natural Language Processing</li>
+            <li>Distributed Systems (IP)</li>
+            <li>Database Concepts</li>
+            <li>Programming Challenges</li>
+            <li>Machine Learning (IP)</li>
+            <li>Operating Systems</li>
+            <li>Data Science</li>
+            <li>Modern Web Development</li>
+        </ul>
       </div >
       <div class="interests">
           <Interests class="interests" />
