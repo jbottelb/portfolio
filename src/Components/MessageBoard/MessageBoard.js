@@ -29,20 +29,20 @@ class MessageBoard extends React.Component {
       this.setState({ [nam]: val });
     };
 
-    render() {
-        return (
-            <div class="standard">
-                <h1>Message Board</h1>
+  render() {
+      return (
+          <div class="standard">
+              <h1>Message Board</h1>
 
-                <input class="name" name="name" type="text" onChange={this.myChangeHandler}/>
-                <input class="messageInput" name="message" type="text" onChange={this.myChangeHandler}/>
-                <button class="messageButton" onClick={this.mySubmitHandler}>
-                    Post
-                </button>
-                <Messages />
-            </div>
-        )
-    }
+              <input class="name" name="name" type="text" onChange={this.myChangeHandler}/>
+              <input class="messageInput" name="message" type="text" onChange={this.myChangeHandler}/>
+              <button class="messageButton" onClick={this.mySubmitHandler}>
+                  Post
+              </button>
+              <Messages />
+          </div>
+      )
+  }
 }
 
 export default MessageBoard;
