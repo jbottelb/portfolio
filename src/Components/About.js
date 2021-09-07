@@ -12,7 +12,14 @@ const About = () => {
         my projects, class code, and of course the ability to make a website in React.js.
         It is a work in progress and I am adding more every day. Go to projects and code to see my work.
       </p>
-      <p> The backend is being run in heroku by a python3 flask API. Code found on the projects page.
+      <p> 
+          Some things are rough because I plan to flush them out as I go on. The site 
+          is in some ways an extended resume, but I hope it offers insights into 
+          my personality and offerings in skills. As well as easy links to and organization of
+          my projects in github.
+      </p>
+      <p> The backend is now hosted by back4app. I made an API in heroku, but this works better. 
+          I still have the code for the simple python API linked in projects. 
       </p>
       <a href="https://jbottelb.netlify.app/CHANGELOG.md">
       Change Log
