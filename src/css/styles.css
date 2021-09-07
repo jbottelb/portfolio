@@ -26,6 +26,7 @@ Color pallete
     font-family: monospace;
 }
 .standard {
+    width: 90%; 
     background-color: var(--c2);
     border-color: var(--c4);
     border: 3px;
