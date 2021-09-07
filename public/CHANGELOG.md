@@ -1,5 +1,11 @@
 # Change Log
 
+## Sept 6
+- Learned you can press dot (.) to open web VS code in github. Game changer. 
+- Added Work experiance information
+- Added extracurricular classes I have taken
+- updated documentation. 
+
 ## Sept 4
 - moved data to back4app for more consistent persistence
 
