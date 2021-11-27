@@ -46,13 +46,14 @@ const Home = () => {
             <li>MySQL</li>
             <li>LAMP</li>
             <li>Linux/UNIX</li>
+            <li>Go</li>
             <li>PHP</li>
             <li>React JS</li>
             <li>HTML/CSS</li>
             <li>Natural Language Processing</li>
+            <li>Computer Networking</li>
             <li>Database Design</li>
-            <li>Go</li>
-            <li>Machine Learing</li>
+            <li>Machine Learning</li>
         </ul>
         <h2>Elective CS Classes</h2>
         <ul>
