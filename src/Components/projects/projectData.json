@@ -6,6 +6,13 @@
         "link": "https://jbottelb.netlify.app/",
         "github": "https://github.com/jbottelb/portfolio"
     },
+     {
+        "title": "Cryptocurrency",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.UfHPCCuvAwzXBfU6wmbIiwHaD4%26pid%3DApi&f=1",
+        "description": "Designed and built a cryptocurrency very similar to bitcoin",
+        "link": "https://github.com/jbottelb/crypto",
+        "github": "https://github.com/jbottelb/crypto"
+    },
     {
         "title": "General Coding Samples",
         "image": "http://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4.png",
