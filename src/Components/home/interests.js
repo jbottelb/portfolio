@@ -10,7 +10,7 @@ const Interests = () => {
         </h3>
         <p>
             Member of the Notre Dame Men's Swimming and Diving team.
-            NCAA All-American and school 200 Breaststroke record holder.
+            NCAA All-American and school 100 and 200 Breaststroke record holder.
         </p>
         <h3>
             Guitar / Music
