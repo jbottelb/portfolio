@@ -64,6 +64,8 @@ const Home = () => {
             <li>Operating Systems</li>
             <li>Data Science</li>
             <li>Modern Web Development</li>
+            <li>Computer Security</li>
+            <li>Computer Networks</li>
         </ul>
       </div >
       <div class="interests">
