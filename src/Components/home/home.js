@@ -19,10 +19,10 @@ const Home = () => {
          </h1>
          <p>
             I am a current senior Computer Science Major at the University of
-            Notre Dame, currently seeking job oppertunities. I am interested in
-            working either backend or full stack, but am open to any oppertunity
-            that is challenging and engaging.
+            Notre Dame. I recently accepted an offer to work as a Software Engineer at 
          </p>
+         <a href="https://www.alkira.com/cloud-dmz/">
+         Alkira
          <a href="https://docs.google.com/document/d/1Pn9mLPk-vw_ZWL7FWr7AQmqGVuHORJ_dFsjbeY7cZX0/edit?usp=sharing">
          <h4 class="link">RESUME</h4>
          </a>
