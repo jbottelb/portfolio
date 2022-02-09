@@ -75,12 +75,5 @@
         "description": "API I built to handle backend needs for this portfolio website. Currently handles the message board. ",
         "link": "https://phyapi.herokuapp.com/",
         "github": "https://github.com/jbottelb/phyapi"
-    }, 
-    {
-        "title" : "Just showing andrew some things",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.swimmingworldmagazine.com%2Fnews%2Fwp-content%2Fuploads%2F2020%2F09%2FBryce-Ortanes-notre-dame.jpg%3Fw%3D1200%26ssl%3D1&f=1&nofb=1",
-        "description" : "here is a photo of bryce",
-        "link" : "www.google.com",
-        "github" : "localhost"
     }
 ]
