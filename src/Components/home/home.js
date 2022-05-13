@@ -26,7 +26,7 @@ const Home = () => {
          <p>
             . I graduated with a degree in computer Science at the University of Notre Dame. 
          </p>
-         <a href="https://docs.google.com/document/d/1Pn9mLPk-vw_ZWL7FWr7AQmqGVuHORJ_dFsjbeY7cZX0/edit?usp=sharing">
+         <a href="https://docs.google.com/document/d/1uZZtIpMIgekrzc6AVYpaI39lbk0vAw4VFILz4L5wf3U/edit">
          <h4 class="link">RESUME</h4>
          </a>
          <h4>
