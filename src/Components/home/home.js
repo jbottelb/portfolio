@@ -18,11 +18,14 @@ const Home = () => {
             Josh Bottelberghe
          </h1>
          <p>
-            I am a current senior Computer Science Major at the University of
-            Notre Dame. I recently accepted an offer to work as a Software Engineer at 
+            I currently am a Software Engineer at 
          </p>
          <a href="https://www.alkira.com/cloud-dmz/">
-         Alkira
+         Alkira Inc
+         </a>
+         <p>
+            . I graduated with a degree in computer Science at the University of Notre Dame. 
+         </p>
          <a href="https://docs.google.com/document/d/1Pn9mLPk-vw_ZWL7FWr7AQmqGVuHORJ_dFsjbeY7cZX0/edit?usp=sharing">
          <h4 class="link">RESUME</h4>
          </a>
@@ -40,19 +43,20 @@ const Home = () => {
       <div class="skills">
         <h2>Skills</h2>
         <ul>
+            <li>Golang</li>
             <li>Python 3</li>
             <li>C/C++</li>
             <li>Java</li>
             <li>MySQL</li>
             <li>LAMP</li>
             <li>Linux/UNIX</li>
-            <li>Go</li>
             <li>PHP</li>
             <li>React JS</li>
             <li>HTML/CSS</li>
             <li>Natural Language Processing</li>
             <li>Computer Networking</li>
             <li>Database Design</li>
+            <li>Computer Security</li>
             <li>Machine Learning</li>
         </ul>
         <h2>Elective CS Classes</h2>
@@ -67,12 +71,12 @@ const Home = () => {
             <li>Modern Web Development</li>
             <li>Computer Security</li>
             <li>Computer Networks</li>
+            <li>Programming for Video Game Development</li>
         </ul>
       </div >
       <div class="interests">
           <Interests class="interests" />
           </div>
-
         </div>
     </div>
   );
