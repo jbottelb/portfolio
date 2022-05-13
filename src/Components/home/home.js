@@ -19,12 +19,9 @@ const Home = () => {
          </h1>
          <p>
             I currently am a Software Engineer at 
-         </p>
-         <a href="https://www.alkira.com/cloud-dmz/">
-         Alkira Inc
-         </a>
-         <p>
-            . I graduated with a degree in computer Science at the University of Notre Dame. 
+            <a href="https://www.alkira.com/cloud-dmz/">
+            Alkira Inc
+         </a> . I graduated with a degree in computer Science at the University of Notre Dame. 
          </p>
          <a href="https://docs.google.com/document/d/1uZZtIpMIgekrzc6AVYpaI39lbk0vAw4VFILz4L5wf3U/edit">
          <h4 class="link">RESUME</h4>
